@@ -1,0 +1,133 @@
+ body {
+    background-color: rgb(220, 184, 176);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+ 
+ .header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+ }
+
+ h1 {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    color: #927191;
+    text-shadow: 1px 2px #574457;
+    text-align: left;
+    
+
+ }
+
+ .bannerp {
+    color: #000000;
+    font-size: 20px;
+    text-align: left;
+    max-width: 75%;
+    margin-left: 2rem;
+ }
+
+ h2 {
+    font-size: 2rem;
+    text-align: center;
+ }
+
+ .p1 {
+    text-align: left;
+ }
+
+ .art1,
+ .art2,
+ .art3 {
+    background-color: rgb(232, 221, 220);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 25px;
+    /*border: 10px solid rgb(220, 184, 176);
+    background: rgb(232, 221, 220);
+    background-clip: content-box;
+    */
+ }
+
+ .img1,
+ .img2,
+ .img3 {
+    width: auto;
+    height: 350px;
+    border-radius: 25px;
+    
+ }
+
+ nav {
+    background-color: rgb(232, 221, 220);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
+
+
+ nav ul {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-inline-start: 0rem;
+ }
+
+ nav ul li {
+    display: inline-block;
+    margin: 0.25rem;   
+ }
+
+ nav ul a {
+    color: #b086af;
+    text-decoration: none;
+ }
+
+ nav ul a:active {
+    text-decoration: underline;
+ }
+
+ nav ul a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+ }
+
+ section {
+    display: flex;
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
+
+ article {
+    flex: 1;
+    border-radius: 1rem;
+ }
+
+
+ footer {
+    margin: 1rem;
+    display: flex;
+    gap: 2rem 1rem;
+ }
+
+ footer div {
+    flex: 1;
+ }
+
+ div img {
+    display: block;
+    margin-left: 1%;
+    margin-right: auto;
+    width: 10%;
+    height: auto;
+ }
+ 
